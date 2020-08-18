@@ -86,7 +86,7 @@ async function msgHandler (client, message) {
                         client.sendText(from, 'Tidak ada gambar! Untuk membuat sticker kirim gambar dengan caption #stiker')
                     }
                     break
-                case '#tiktok':
+                case '#tidsfdsfdsdssdfsdktok':
                     if (args.length == 2) {
                         const url = args[1]
                         if (url.match(isUrl) && url.includes('tiktok.com')) {
